@@ -1,12 +1,24 @@
 {
   "name": "local-storage-helpers",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Helper functions for local storage (available space analysis, read operations, write operations, etc.)",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "repository": "git@github.com:maks-io/local-storage-helpers.git",
   "author": "Markus Kurzmann <markus@kurzmann.io>",
   "license": "MIT",
+  "keywords": [
+    "localstorage",
+    "local storage",
+    "analyse",
+    "remaining space",
+    "available space",
+    "total space",
+    "browser"
+  ],
+  "files": [
+    "build"
+  ],
   "scripts": {
     "clear-build-folder": "rm -rf ./build",
     "transpile": "tsc",
