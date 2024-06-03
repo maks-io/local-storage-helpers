@@ -1,0 +1,22 @@
+{
+  "name": "local-storage-helpers",
+  "version": "1.0.0",
+  "description": "Helper functions for local storage (available space analysis, read operations, write operations, etc.)",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "repository": "git@github.com:maks-io/local-storage-helpers.git",
+  "author": "Markus Kurzmann <markus@kurzmann.io>",
+  "license": "MIT",
+  "scripts": {
+    "clear-build-folder": "rm -rf ./build",
+    "transpile": "tsc",
+    "fix-paths": "tsc-alias",
+    "build": "yarn clear-build-folder && yarn transpile && yarn fix-paths",
+    "dev": "yarn nodemon"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.2",
+    "prettier": "^3.3.0",
+    "tsc-alias": "^1.8.10"
+  }
+}

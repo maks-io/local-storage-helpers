@@ -1,0 +1,6 @@
+export type IAction =
+  | "RETURN_FALLBACK"
+  | "CALL_FALLBACK_FN"
+  | "RETURN_NULL"
+  | "RETURN_UNDEFINED"
+  | "THROW_ERROR";
